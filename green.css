@@ -1,0 +1,136 @@
+body {
+	background-color: #5ab325;
+	position: relative;
+	margin: 0;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a {
+	color: #fedc19;
+}
+
+#content { 
+	position: relative;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+/*
+#content div {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+#bg_green {
+	background: url('images/bg_green.png');
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1000;
+}
+#top_leaves {
+	width: 100%;
+	height: 100px;
+	background-image: url('images/bg_leaves.png');
+	background-repeat: repeat-x;
+	z-index: -998;
+}
+#top_clouds {
+	margin-top: 100px;
+	width: 100%;
+	height: 200px;
+	background-image: url('images/bg_clouds.png');
+	background-position: center;
+	background-repeat: repeat-x;
+	position: absolute;
+	z-index: -999;
+}
+#top_logo {
+/*
+*/
+	background-image: url('images/title.png');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center;
+	height: 600px;
+}
+#description {
+	display: block;
+	position: absolute;
+	width: 480px;
+	font-size: 28px;
+}
+#trailer {
+	display: block;
+	position: absolute;
+	width: 480px;
+	left: 500px;
+	margin-top: 48px;
+}
+#features {
+	position: relative;
+	margin-top: 520px;
+	font-size: 20px;
+}
+#downloads {
+	position: absolute;
+	width: 480px;
+	left: 540px;
+	top: 360px;
+}
+#downloads a {
+	text-decoration: none;
+}
+#downloads img {
+	vertical-align: middle;
+	display:inline-block;
+}
+#downloads span {
+	margin-right: 20px;
+}
+#greenlight {
+	margin-top: 20px;
+	position: relative;
+}
+#greenlight p {
+	position: absolute;
+	left: 350px;
+	top: 50px;
+	font-size: 30px;
+	color: #ffffff;
+}
+#subscribe {
+	margin-top: 20px;
+}
+#subscribe label {
+	font-size: 20px;
+}
+#subscribe .button {
+	background-color: #00ccff;
+	font-size: 20px;
+}
+#subscribe .button:hover {
+	background-color: #00ccff;
+}
+#presskit {
+	margin-left: 20px;
+}
+#bottom_forest {
+	background-image: url('images/bg_forest.png');
+	background-repeat: repeat-x;
+	background-position: center;
+	width: 100%;
+	height: 800px;
+	bottom: 0px;
+	position: absolute;
+	z-index: -999;
+}
+footer {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
