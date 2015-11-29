@@ -94,6 +94,7 @@ a {
 }
 #greenlight {
 	margin-top: 20px;
+	margin-left: 50px;
 	position: relative;
 }
 #greenlight p {
@@ -103,8 +104,22 @@ a {
 	font-size: 30px;
 	color: #ffffff;
 }
+#awards {
+	background-image: url('images/awards.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 70px;
+}
+#reviews {
+	background-image: url('images/reviews.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 1024px;
+}
 #subscribe {
 	margin-top: 20px;
+	margin-left: 50px;
 }
 #subscribe label {
 	font-size: 20px;
@@ -116,7 +131,9 @@ a {
 #subscribe .button:hover {
 	background-color: #00ccff;
 }
-#presskit {
+#follow {
+	margin-left: 80px;
+}#presskit {
 	margin-left: 20px;
 }
 #bottom_forest {
