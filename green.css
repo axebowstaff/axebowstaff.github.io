@@ -71,6 +71,9 @@ a {
 	left: 500px;
 	margin-top: 48px;
 }
+#trailer img {
+	display: none;
+}
 #features {
 	position: relative;
 	margin-top: 520px;
