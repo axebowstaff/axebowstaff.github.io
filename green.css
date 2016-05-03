@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	color: #ffffff;
 	font-size: 20px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
 }
 a {
 	color: #fedc19;
@@ -40,7 +40,9 @@ a {
 	z-index: -998;
 }
 #top_clouds {
+/*
 	margin-top: 100px;
+*/
 	width: 100%;
 	height: 200px;
 	background-image: url('images/bg_clouds.png');
@@ -50,8 +52,7 @@ a {
 	z-index: -999;
 }
 #top_logo {
-/*
-*/
+	margin-top: -100px;
 	background-image: url('images/title.png');
 	background-repeat: no-repeat;
 	background-size: 40%;
@@ -59,31 +60,67 @@ a {
 	height: 600px;
 }
 #description {
-	display: block;
+	position: relative;
+	margin-top: 0px;
+	/*
 	position: absolute;
 	width: 480px;
-	font-size: 28px;
+	*/
+	font-size: 24px;
+	background-color: #9CD117;
+	padding: 24px;
 }
 #trailer {
+	position: relative;
 	display: block;
+	width: 960px;
+	margin-left: 16px;
+	/*
+	margin-right: 24px;
 	position: absolute;
-	width: 480px;
 	left: 500px;
 	margin-top: 48px;
+	*/
+	background-color: #9CD117;
+	padding: 24px 20px 8px 20px;
+	border: 3px solid white;
 }
 #trailer img {
 	display: none;
 }
 #features {
 	position: relative;
-	margin-top: 520px;
+	margin-top: 48px;
 	font-size: 20px;
+	background-color: #9CD117;
+	padding: 24px;
+}
+#buy {
+	position: relative;
+	width: 400px;
+	height: 120px;
+	background-color: #9CD117;
+	padding-top: 48px;
+	padding-left: 24px;
+	top: 48px;
+}
+#buy img {
+	padding-right: 48px;
 }
 #downloads {
+	display: none;
+	/*
 	position: absolute;
-	width: 480px;
-	left: 540px;
 	top: 400px;
+	*/
+	position: relative;
+	width: 480px;
+	height: 120px;
+	left: 540px;
+	top: -180px;
+}
+#downloads h3 {
+	margin-top: 46px;
 }
 #downloads a {
 	text-decoration: none;
@@ -95,7 +132,18 @@ a {
 #downloads span {
 	margin-right: 20px;
 }
+#subscribe {
+	position: relative;
+	width: 480px;
+	height: 160px;
+	left: 540px;
+	top: -90px;
+}
+#subscribe label {
+	font-size: 20px;
+}
 #greenlight {
+	display: none;
 	margin-top: 20px;
 	margin-left: 50px;
 	position: relative;
@@ -112,6 +160,8 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 70px;
+	margin-top: -60px;
+	margin-bottom: 32px;
 }
 #reviews {
 	background-image: url('images/reviews.png');
@@ -119,20 +169,7 @@ a {
 	background-position: center;
 	background-size: 100%;
 	height: 1024px;
-}
-#subscribe {
-	margin-top: 20px;
-	margin-left: 50px;
-}
-#subscribe label {
-	font-size: 20px;
-}
-#subscribe .button {
-	background-color: #00ccff;
-	font-size: 20px;
-}
-#subscribe .button:hover {
-	background-color: #00ccff;
+	margin-top: 96px;
 }
 #follow {
 	margin-left: 80px;
