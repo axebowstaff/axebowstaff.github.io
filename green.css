@@ -96,13 +96,18 @@ a {
 	padding: 24px;
 }
 #buy {
+	padding-top: 48px;
+}
+#steam {
+	position: absolute;
+	left: 540px;
+}
+#buy a{
 	position: relative;
 	width: 400px;
 	height: 120px;
 	background-color: #9CD117;
-	padding-top: 48px;
 	padding-left: 24px;
-	top: 48px;
 }
 #buy img {
 	padding-right: 48px;
@@ -135,9 +140,9 @@ a {
 #subscribe {
 	position: relative;
 	width: 480px;
-	height: 160px;
+	height: 60px;
 	left: 540px;
-	top: -90px;
+	top: -80px;
 }
 #subscribe label {
 	font-size: 20px;
@@ -160,7 +165,6 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 70px;
-	margin-top: -60px;
 	margin-bottom: 32px;
 }
 #reviews {
