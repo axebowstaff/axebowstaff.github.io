@@ -40,11 +40,11 @@
 				function onYoutubeFallback() {
 						//$("#trailer iframe").attr("src", "http://player.youku.com/embed/XMTQwOTkwMzI5Ng==");
 						$("#trailer iframe").remove();
-						$("#trailer").prepend('<embed height="554" width="960" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=3366633&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>');
+						$("#trailer").prepend('<embed height="554" width="960" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=6426406&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>');
 				}
 				$("#trailer img").error(onYoutubeFallback);
 			</script>
-			<iframe width="960" height="540" src="https://www.youtube.com/embed/V5pzYjWD_OA" frameborder="0" allowfullscreen></iframe>
+			<iframe width="960" height="540" src="https://www.youtube.com/embed/NjqFXOYJLPo" frameborder="0" allowfullscreen></iframe>
 		<!--
 		-->	
 			<!-- AddThis Button BEGIN -->
@@ -110,6 +110,25 @@
 				<p>Inspired bygames like Lost Vikings, Adventure Island, Cadilacs and Dinosaurs and Captain Commando, etc, Axe, Bow & Staff evokes the nostalgia of the favorite games of your youth: updated with faster graphics, multi-player replayablilty, and goofy gameplay that's easy to learn but many times harder to master!</p>
 			</p>
 		</div>
+		
+		<div id="screenshots">
+			<div id="thumbnails">
+				<a href="javascript:void(0)"><img src="http://i.imgur.com/40ZmuNOt.gif" title="Racing Mode" /></a>
+				<a href="javascript:void(0)"><img src="http://i.imgur.com/Dutr36Xt.gif" title="Go Turbo!" /></a>
+				<a href="javascript:void(0)"><img src="http://i.imgur.com/jKXoNw2t.gif" title="Fortune Cat" /></a>
+				<a href="javascript:void(0)"><img src="http://i.imgur.com/9ofJbqqt.gif" title="Worm Boss" /></a>
+			</div>
+			<div id="original">
+				<p>Click a thumbnail to view the gameplay GIF:</p>
+				<img src="http://i.imgur.com/40ZmuNO.gif" title="Racing Mode" />
+			</div>
+			<script>
+				$("#thumbnails img").click(function(evt) {
+					$("#original img").attr("src", evt.target.src.replace("t.gif", ".gif"));
+				});
+			</script>
+		</div>
+		
 		<div id="features">
 			<h2>
 				<b>Main Features:</b>
@@ -124,9 +143,11 @@
 				<li><b>Multiple Playthroughs</b></li>
 				<p>Have you heard the saying, "A procedurally-generated level is like multiple playthroughs in the bank"? Neither have we, and yet here it is bringing more bang for your buck! </p>
 				<li><b>A Matrix of Options for Customization</b></li>
-				<p>20+ skill upgrades and 70+ items is, like, a really good way to bing-bling your characters. Which makes YOU, like, the equivalent of a fantasy game gangsta. </p>
+				<p>20+ skill upgrades and 70+ items is, like, a really good way to bling-bling your characters. Which makes YOU, like, the equivalent of a fantasy game gangsta. </p>
 				<li><b>Single Player, Local Multiplayer, Online Multiplayer</b></li>
 				<p>You COULD play it all by yourself, comfortably alone in your underwear with a beer hat wrapped around your head, or you could sit there with your so-called friends and play multiplayer locally. Or team-up with online play. Whatever. We support that, too.</p>
+				<li><b>Racing Mode</b></li>
+				<p>Introducing side-scrolling Mario Kart! If you are tired of the co-op, try "testing" your friendship in the Racing Mode!</p>
 			</ul>
 		</div>
 		
